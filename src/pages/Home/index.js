@@ -16,7 +16,10 @@ function Home(){
 
   return (
     <Container>
-    <h1>Movies</h1>
+    <nav>
+    <Link to="/"  style={{ textDecoration: 'none' }}><h2>Movies</h2></Link>
+    <Link to={`../series`}  style={{ textDecoration: 'none' }}><h2>Series</h2></Link>
+    </nav>
     <MovieList>
       {movies.map(movie => {
         return(

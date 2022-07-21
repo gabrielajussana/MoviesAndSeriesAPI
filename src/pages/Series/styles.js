@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    nav{
+  nav{
       display: flex;
       padding: 2rem;
       margin-bottom: 2rem;
@@ -19,7 +19,7 @@ export const Container = styled.div`
     }
 `
 
-export const MovieList = styled.ul`
+export const TvList = styled.ul`
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -27,7 +27,7 @@ export const MovieList = styled.ul`
   row-gap: 4rem;
 `
 
-export const Movie = styled.li`
+export const Tv = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
