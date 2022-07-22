@@ -11,3 +11,5 @@ Você pode ver detalhes como titulo, sinopse e data de lançamento ao clicar em 
 * ReactJS
 * React Router
 * Styled Components
+
+## 🔗[Link do Projeto](https://popularmoviesandseries.netlify.app)
